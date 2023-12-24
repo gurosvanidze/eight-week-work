@@ -1,0 +1,58 @@
+@font-face {
+    font-family: commschool;
+    src: url(commschool.ttf) format(truetype);
+}
+body {
+    font-family:'Courier New', Courier, sans-serif;
+    font-style: italic;
+    font-size: 2em;
+    font-weight: bold;
+}
+h1 {
+    font-family: commschool;
+}
+h1::before, h1::after {
+    content:"";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin: auto; */
+}
+/* .box:hover {
+    background-color: green;
+    border-radius: 10px;
+} */
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+.list {
+    border: 1px solid green;
+    /* margin-left: 300px; */
+    position: relative;
+    height: 300px;
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    display: block;
+}
+.description {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: auto;
+
+}
